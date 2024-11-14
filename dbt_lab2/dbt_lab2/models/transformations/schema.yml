@@ -1,0 +1,26 @@
+version: 2
+
+models:
+  - name: moving_avg
+    columns:
+      - name: date
+        tests:
+          - not_null
+      - name: symbol
+        tests:
+          - not_null
+      - name: moving_average_90d
+        tests:
+          - not_null
+
+  - name: rsi_calc
+    columns:
+      - name: date
+        tests:
+          - not_null
+      - name: symbol
+        tests:
+          - not_null
+      - name: rsi_14d
+        tests:
+          - not_null

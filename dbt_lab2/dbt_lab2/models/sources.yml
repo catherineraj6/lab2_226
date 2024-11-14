@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw_data
+    database: STOCK_PRICE_DB 
+    schema: RAW_DATA
+    tables:
+      - name: vantage_api

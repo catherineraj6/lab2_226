@@ -1,0 +1,13 @@
+dbt_lab2:
+  outputs:
+    dev:
+      account: IPFAZEH-FP52136
+      database: STOCK_PRICE_DB
+      password: Keerthika@1091
+      role: ACCOUNTADMIN
+      schema: RAW_DATA
+      threads: 1
+      type: snowflake
+      user: keerthikaloganathan
+      warehouse: COMPUTE_WH
+  target: RAW_DATA_ANALYTICS
